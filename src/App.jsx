@@ -73,7 +73,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img src="/logo.png" alt="Logo" className="w-8 h-8" onError={(e) => e.target.style.display='none'} />
-            <span className="text-xl font-bold tracking-tight">Sentinel<span className="text-blue-500">AI</span></span>
+            <span className="text-xl font-bold tracking-tight">Nexus<span className="text-blue-500">Pulse</span></span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map(link => (
@@ -194,7 +194,7 @@ function App() {
           <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 blur-3xl rounded-full translate-x-1/2 -translate-y-1/2" />
           <h2 className="text-4xl md:text-6xl font-bold mb-8 relative z-10">Ready to transform your maintenance?</h2>
           <p className="text-blue-100 text-xl mb-12 max-w-2xl mx-auto relative z-10 opacity-80">
-            Join thousands of engineers who trust Sentinel AI for their mission-critical operations.
+            Join thousands of engineers who trust Nexus Pulse AI for their mission-critical operations.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 relative z-10">
             <a 
@@ -216,7 +216,7 @@ function App() {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-3 mb-6">
               <img src="/logo.png" alt="Logo" className="w-8 h-8" onError={(e) => e.target.style.display='none'} />
-              <span className="text-xl font-bold">SentinelAI</span>
+              <span className="text-xl font-bold">Nexus Pulse</span>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed">
               Advancing industrial intelligence through predictive modeling and edge computing.
@@ -248,7 +248,7 @@ function App() {
           </div>
         </div>
         <div className="max-w-7xl mx-auto flex flex-col md:row items-center justify-between gap-6 text-slate-600 text-xs uppercase tracking-widest font-semibold">
-          <p>© 2026 PRECISION SENTINEL AI. BUILT FOR THE FUTURE.</p>
+          <p>© 2026 NEXUS PULSE AI. BUILT FOR THE FUTURE.</p>
           <div className="flex items-center gap-8">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
